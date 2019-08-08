@@ -80,6 +80,7 @@ public class CheckpointCoordinator {
 
 	private static final Logger LOG = LoggerFactory.getLogger(CheckpointCoordinator.class);
 
+
 	/** The number of recent checkpoints whose IDs are remembered. */
 	private static final int NUM_GHOST_CHECKPOINT_IDS = 16;
 
